@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>A_helping_hand</title>
+    <!-- MDB icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!-- Google Fonts Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Lora&family=Major+Mono+Display&family=Righteous&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Lora&family=Major+Mono+Display&family=Righteous&display=swap" rel="stylesheet">
+    <!-- MDB -->
+    
+    <link rel="stylesheet" href="css/mdb.min.css" />
+  </head>
+  <body style="font-family:'Lora', serif; ">
+    <!-- Start your project here-->
+    <!--Main Navigation-->
+    <header>
+      <style>
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,#b9f9af);
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent,#f9bfafaa);
+}
+        /* Carousel styling */
+        #introCarousel,
+        .carousel-inner,
+        .carousel-item,
+        .carousel-item.active {
+          height: 100vh;
+        }
+
+        .carousel-item:nth-child(1) {
+          background-image: url('img/AdobeStock_268964748-scaled-1152x578-1.jpeg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+        }
+        .carousel-item:nth-child(2) {
+          background-image: url('img/6255c2f693ebdd008343e975_ADD\ vs\ ADHD.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+        }
+        .carousel-item:nth-child(3) {
+          background-image: url('img/Red-and-Black-Sitting-Guy-World-Health-Day-Facebook-Post.webp');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+        }
+        /* Height for devices larger than 576px */
+        @media (min-width: 992px) {
+          #introCarousel {
+            margin-top: -58.59px;
+          }
+          #introCarousel,
+          .carousel-inner,
+          .carousel-item,
+          .carousel-item.active {
+            height: 50vh;
+          }
+        }
+
+        .navbar .nav-link {
+          color: #fff !important;
+        }
+      </style>
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+        <div class="container-fluid">
+          <!-- Navbar brand -->
+          <a class="navbar-brand nav-link" target="_blank" href="https://mdbootstrap.com/docs/standard/">
+            <strong>A_helping_hand</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#intro">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resource.html" rel="nofollow"
+                  target="_blank">Resource</a>
+              </li>
+              <div class="dropdown">
+                <button
+                  class="btn btn-outline-light dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton2"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Mental Skills<i class="fa-solid fa-dice fa-beat"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item active" href="gamePage.html">Mental Games</a></li>
+                  <li><a class="dropdown-item" href="Motivational Videos/Motivational Videos/Motivational.html">Mental Tasks</a></li>
+                </ul>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost:3000/" target="_blank">Community<i class="fa-sharp fa-solid fa-users"></i></a>
+              </li>
+            </ul>
+            <ul class="navbar-nav d-flex flex-row">
+              <!-- Icons -->
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="Donate/Donate/donate.html" rel="nofollow"
+                  target="_blank">
+                  <button type="button" class="btn btn-warning btn-rounded" style="padding-top: 0px;">Donate</button>
+                </a>
+              </li>
+              <li id="signinButton"class="nav-item active">
+                <a class="nav-link" aria-current="page" href="signin.html">Sign In</a>
+              </li>
+              <li id="profileIcon" class="nav-item me-3 me-lg-0">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-floating btn-lg" data-mdb-toggle="modal"
+                  data-mdb-target="#myModal">
+                  <i class="fa-regular fa-user"></i>
+                </button>
+              </li>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Your Profile</h5>
+                        <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <section class="vh" style="background-color: #f4f5f7; color: #04042c;" >
+                          <div class="container py-5 h-100">
+                            <div class="row d-flex justify-content-center align-items-center h-100">
+                              <div class="col col-lg-6 mb-4 mb-lg-0" style="width: 524px;">
+                                <div class="card mb-3" style="border-radius: .5rem;">
+                                  <div class="row g-0">
+                                    <div class="col-md-4 gradient-custom text-center text-white"
+                                      style="border-top-left-radius: .5rem; border-bottom-left-radius: .5rem;">
+                                      <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava1-bg.webp"
+                                        alt="Avatar" class="img-fluid my-5" style="width: 80px;" />
+                                      <h5 style="color: #04042c;">User</h5>
+                                      <p style="color: #04042c;">Web Designer</p>
+                                      <a href="profedit.html"><i class="far fa-edit mb-5"></i></a>
+                                    </div>
+                                    <div class="col-md-8">
+                                      <div class="card-body p-4">
+                                        <h6>Information</h6>
+                                        <hr class="mt-0 mb-4">
+                                        <div class="row pt-1">
+                                          <div class="col-6 mb-3">
+                                            <h6>Email</h6>
+                                            <p class="text-muted">info@example.com</p>
+                                          </div>
+                                          <div class="col-6 mb-3">
+                                            <h6>Phone</h6>
+                                            <p class="text-muted">123 456 789</p>
+                                          </div>
+                                        </div>
+                                        <!-- <h6>Projects</h6>
+                                        <hr class="mt-0 mb-4">
+                                        <div class="row pt-1">
+                                          <div class="col-6 mb-3">
+                                            <h6>Recent</h6>
+                                            <p class="text-muted">Lorem ipsum</p>
+                                          </div>
+                                          <div class="col-6 mb-3">
+                                            <h6>Most Viewed</h6>
+                                            <p class="text-muted">Dolor sit amet</p>
+                                          </div>
+                                        </div> -->
+                                        <div class="d-flex justify-content-start">
+                                          <a href="#!"><i class="fab fa-facebook-f fa-lg me-3"></i></a>
+                                          <a href="#!"><i class="fab fa-twitter fa-lg me-3"></i></a>
+                                          <a href="#!"><i class="fab fa-instagram fa-lg"></i></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+                          Close
+                        </button>
+                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+
+      <!-- Carousel wrapper -->
+      <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
+          <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
+          <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
+        </ol>
+
+        <!-- Inner -->
+        <div class="carousel-inner">
+          <!-- Single item -->
+          <div class="carousel-item active">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+              <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white text-center">
+                  <h1 class="mb-3"><strong>Meditation can go a long way..</strong> </h1>
+                  <h5 class="mb-4">Hear from the top experts</h5>
+                  <a
+                    class="btn btn-outline-light btn-lg m-2"
+                    href="Meditation/Meditation/Meditation.html"
+                    role="button"
+                    rel="nofollow"
+                    target="_blank"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single item -->
+          <div class="carousel-item">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+              <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white text-center">
+                  <h2><strong>What is the difference between add and adhd?</strong> </h2>
+                  <h3>Explore Our extensive library</h3>
+                  <a
+                    class="btn   btn-warning  btn-lg m-2"
+                    href="adpitor-html/index.html"
+                    target="_blank"
+                    role="button"
+                    ><strong>Learn More</strong></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Single item -->
+          <div class="carousel-item">
+            <div
+              class="mask"
+              style="
+                background: linear-gradient(
+                  45deg,
+                  rgba(29, 236, 197, 0.7),
+                  rgba(91, 14, 214, 0.7) 100%
+                );
+              "
+            >
+              <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white text-center">
+                  <h2>"Not all scars can be seen"</h2>
+                  <h5>Explore Mental health of your child</h5>
+                  <a
+                    class="btn btn-outline-light btn-lg m-2"
+                    href="resource.html"
+                    target="_blank"
+                    role="button"
+                    >Learn More.</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Inner -->
+
+        <!-- Controls -->
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-mdb-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-mdb-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- Carousel wrapper -->
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main class="mt-5">
+      <div class="container">
+        <!--Section: Content-->
+        <section>
+          <div class="row">
+            <div class="col-md-6 gx-5 mb-4">
+              <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
+                <img src="img/helping-hand-concept-gesture-sign-help-hope-two-hands-taking-each-other_158483-1765.avif" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 gx-5 mb-4">
+              <h4><strong>A_helping_hand</strong></h4>
+              <p class="text-muted">
+                Our platform  is dedicated to transforming the lives of children and families struggling with mental health and learning disorders by giving them the help they need to thrive.
+                We're the leading independent nonprofit in children's mental health, operating three Mission Areas that work together for greater impact: Care, Education and Science.
+              </p>
+              <p><strong>What we aim and what's our goal?</strong></p>
+              <p class="text-muted">
+                We aim at sharpening mental skills of children by various games which helps them to learn patterns,sentences and develop high order thinking skills with an interactive platoform.
+                We also educate the parents that they are not alone and our resources give them assurance that theey have the right path for their child's development. 
+              </p>
+            </div>
+          </div>
+        </section>
+        <!--Section: Content-->
+        <hr class="my-5" />
+        <section>
+          <div class="row">
+            <div class="col-md-6 gx-5 mb-4">
+              <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
+                <img src="img/gettyimages-1313659027.webp" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 gx-5 mb-4">
+              <h4><strong>Parents'role</strong></h4>
+              <h5>Parents play an important role in the mental health development of their child.</h5> 
+                <p class="text-muted">
+Build a positive and supportive relationship with your child: A positive and supportive relationship with your child can help them feel safe, secure, and loved. This can build their self-esteem and resilience, and can also help them develop healthy coping skills.
+              </p>
+              <a
+                    class="btn btn-outline-light btn-lg m-2"
+                    href="resource.html"
+                    target="_blank"
+                    role="button"
+                    >Care</a
+                  >
+            </div>
+          </div>
+        </section>
+        <!--Section: Content-->
+      
+        <hr class="my-5" />
+        <!--Section: Content-->
+        <section class="text-center">
+          <h4 class="mb-5"><strong> Explore Care</strong></h4>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card d-flex">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img
+                    src="img/images.jpg"
+                    class="img-fluid"
+                  />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Does your child adhd or social struggles?</h5>
+                  <p class="card-text">
+                    Children with Attention-Deficit/Hyperactivity Disorder (ADHD) can face challenges when it comes to understanding and implementing these social skills. They may find it challenging to make and keep friends because of their brain’s executive functioning impairment.
+                  </p>
+                  <a href="Motivational Videos/Motivational Videos/Motivational.html" class="btn btn-primary">Be A_helping_hand for your child❤️</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card d-flex">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img
+                    src="img/video game procon final.webp"
+                    class="img-fluid"
+                  />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Sharpening mental skills </h5>
+                  <p class="card-text">
+                    Pattern learning games can help to enhance cognitive skills such as memory, attention, problem-solving, and reasoning. Amusement and developmentgo hand in hand and we specializde in This
+                  </p>
+                  <a href="gamePage.html" class="btn btn-primary">Fun way to learn💡🕹️</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card d-flex">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img
+                    src="img/feature-image-red.png"
+                    class="img-fluid"
+                  />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Meditation ...the right way.</h5>
+                  <p class="card-text">
+                    Meditation can help children reduce stress and anxiety by calming the mind and promoting relaxation. This can be particularly important for children with mental illness who may experience high levels of stress and anxiety.
+                  </p>
+                  <a href="Meditation/Meditation/Meditation.html" class="btn btn-primary">For u& your Mind🧘</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Section: Content-->
+        
+
+        <hr class="my-5" />
+        <section>
+          <div class="row">
+            <div class="col-md-6 gx-5 mb-4">
+              <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
+                <img src="img/HEADER_P_MCSWMH.png" class="img-fluid " />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 gx-5 mb-4">
+              <h3><strong>Parent's teaching</strong></h3>
+              <h4>What we house.. For You.</h4>
+              <p class="text-muted">
+                ✔️Building a positive and supportive relationship with your child
+              </p>
+              <p class="text-muted">
+                ✔️ Encouraging healthy habits
+              </p>
+              <p class="text-muted">
+                ✔️Communicate openly and honestly
+              </p>
+              <a
+                    class="btn btn-outline-dark btn-lg m-2"
+                    href="resource.html"
+                    role="button"
+                    rel="nofollow"
+                    target="_blank"
+                    >Learn More</a
+                  >
+              
+            </div>
+          </div>
+        </section>
+        <hr class="my-5" />
+        <!--Section: Content-->
+        <section class="text-center">
+          <h4 class="mb-5"><strong> Explore Education</strong></h4>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img
+                    src="img/istockphoto-1324857173-612x612.jpg"
+                    class="img-fluid"
+                  />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Mental Health of pernts and children-"A strong connection"</h5>
+                  <p class="card-text">
+                    The mental health of children is connected to their parents' mental health. A recent study found that 1 in 14 children has a caregiver with poor mental health.
+                  </p>
+                  <a href="Motivational Videos/Motivational Videos/Motivational.html" class="btn btn-primary">We are Together➡️</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card d-flex">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img
+                    src="img/images (2).jpg"
+                    class="img-fluid"
+                  />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+                <div class="card-body ">
+                  <h5 class="card-title ">Some projects and organisation to get help from.</h5>
+                  <p class="card-text">
+                    Projects that are currently running related to educating parents about the mental health of children are CMHN,AAP,Mental health for first aid.
+                  </p>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-success dropdown-toggle" data-mdb-toggle="dropdown" aria-expanded="false">
+                      Learn more about projects.👨‍👶
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://www.cambridgemhn.org/">CMHN</a></li>
+                      <li><a class="dropdown-item" href="https://www.aap.org/en/patient-care/mental-health-initiatives/">AAP</a></li>
+                      <li><a class="dropdown-item" href="https://www.mhfaindia.com/">Mental health for first aid</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card d-flex">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img
+                    src="img/learn-about-mental-health-header.jpg"
+                    class="img-fluid"
+                  />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Mental Health Resources for Medical Practices.</h5>
+                  <p class="card-text">
+                    Get printable brochures on common mental health challenges to share with the families who rely on you.
+                  </p>
+                  <a href="resource.html" class="btn btn-primary">Resources.</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="my-5" />
+        <section >
+          <div class="row">
+            <div class="col-md-6 gx-5 mb-4">
+              <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
+                <img src="img/Child_Therapy_1296x728-header-1296x728.webp" class="img-fluid " >
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 gx-5 mb-4">
+              <h3 style="font-family: 'Bebas Neue', cursive;"><strong>Ways to give.</strong></h3>
+              <h4 style="font-family: 'Bebas Neue', cursive;">Help us transform the lives of children struggling with mental health and learning disorders.</h4>
+              <a
+                    class="btn btn-outline-dark btn-lg m-2"
+                    href="Donate/Donate/donate.html"
+                    role="button"
+                    rel="nofollow"
+                    target="_blank"
+                    >Donate</a
+                  >
+            </div>
+        </section>
+        <!--Section: Content-->
+        <hr>
+
+        <!--Section: Content-->
+        <section class="mb-5">
+          <h4 class="mb-5 text-center"><strong>Submit Your review</strong></h4>
+
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+              <form>
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row mb-4">
+                  <div class="col">
+                    <div class="form-outline">
+                      <input type="text" id="form3Example1" class="form-control" />
+                      <label class="form-label" for="form3Example1">First name</label>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-outline">
+                      <input type="text" id="form3Example2" class="form-control" />
+                      <label class="form-label" for="form3Example2">Last name</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form3Example3" class="form-control" />
+                  <label class="form-label" for="form3Example3">YOur review</label>
+                </div>
+
+
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <!--Section: Content-->
+      </div>
+    </main>
+    <!--Main layout-->
+    
+
+    <!--Footer-->
+    <footer class="bg-light text-lg-start">
+      <hr class="m-0" />
+
+      <div class="text-center py-4 align-items-center">
+        <p>Follow us on social media</p>
+        <a
+          href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA"
+          class="btn btn-primary m-1"
+          role="button"
+          rel="nofollow"
+          target="_blank"
+        >
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a
+          href="https://github.com/mdbootstrap/mdb-ui-kit"
+          class="btn btn-primary m-1"
+          role="button"
+          rel="nofollow"
+          target="_blank"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </footer>
+    <!--Footer-->
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Darkmode.js/1.4.0/darkmode-js.min.js" integrity="sha512-dpxBnhNDJqCxp3tx/KSNemrBiFGkxsIizQ2URKA+EOSBp/ct3bLm6ji9jDJhalECQkhfeI5wmQAcjhqPHCsbOw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Darkmode.js/1.4.0/darkmode-js.js" integrity="sha512-Rhe90vlIW/+7K70mtXdfnIiijIXoCIzLhO0yu+Ofy+9fFjCCA+sdpE7gq68Cd7FKsuBkb/9Aqcsb9qMiCxd18Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/2e853aa989.js" crossorigin="anonymous"></script>
+  </body>
+</html>

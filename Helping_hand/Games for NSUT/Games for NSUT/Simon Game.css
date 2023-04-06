@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  box-sizing:border-box
+}
+
+body {
+  text-align: center;
+  background-color: #3A6351;
+}
+	
+/* Navbar container */
+.navbar {
+	overflow: hidden;
+	background-color: #CEE6B4;
+	font-family: 'Prompt', sans-serif;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+	float: right;
+	font-size: 16px;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+	float: right;
+	overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: black;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit; /* Important for vertical align on mobile phones */
+	margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #3a635173;
+  color: white;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+	
+	display: none;
+	position: absolute;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+	background-color: #3a635173;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  #level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin-right:  5%;
+    margin-bottom:  0;
+    margin-left:  5%;
+    margin-top:  5%;
+    color: #FEF2BF;
+  }
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+.brief{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 3%;
+  font-size: 30px;
+  color: white;
+}
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}

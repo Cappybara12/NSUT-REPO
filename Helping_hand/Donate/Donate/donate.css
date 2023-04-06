@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+/* Navbar container */
+.navbar {
+	overflow: hidden;
+	background-color: rgba(245, 245, 245, 0.404);
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+	float: left;
+	padding: 14px 16px;
+	font-size: 19px;
+	color: black;
+	text-align: center;
+	padding: 14px 13px;
+	text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+	float: right;
+	overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit; /* Important for vertical align on mobile phones */
+	margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover{
+	background-color: whitesmoke;
+    color: black;
+  }
+  
+ 
+ 
+:root{--themeRed:#e43e47;
+    --gray: #efefef;
+}
+body{background-image: url(skynews-child-mental-health_4673962.jpg);
+    background-size: 100%;
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.fullcontainer{width:100%;}
+.container{
+    width: 1140px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.banner{min-height:100vh;
+    width:100%;
+    background-attachment:fixed;
+}
+.banner h1{margin-top: 270px;
+    display:inline-block;
+    font-size: 4.5rem;
+    color:#ff0000dd;
+    text-shadow: 0 0 2px #000;
+    width:50%;
+    line-height: 4.2rem;
+    font-weight:600%;
+    margin-left:18px;
+}
+.banner h span{
+    background-color:none;
+    display:inline-block;
+    line-height: 3.5rem;
+    padding: 0 15px;
+    border: none;
+    font-weight:600;
+    border-radius:5px;
+    font-size: 4.5rem;
+    color:#efefef;
+    margin-left:15px;
+    transition: 0.3s;
+    margin: top 0;
+    ;}
+.banner p{
+    color:yellowgreen;
+    text-decoration-style: solid; 
+width:50%;
+text-shadow:0 0 2px #000; 
+margin-top:10px;
+margin-left:20px;
+}
+
+button{
+    margin-left: auto;
+}
+.banner button{
+    background-color: transparent;
+    border:none;
+    outline:none;
+    color:white;
+    padding: 10px;
+    margin-top:15px;
+    font-size:13px;
+    margin-left: 10px;}
+
+
+
+
+
+
+
+
+
+    
+    

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+	/* CSS Code */
+	
+
+	*{
+		margin: 0;
+		box-sizing:border-box
+	}
+	
+/* Navbar container */
+.navbar {
+	overflow: hidden;
+	background-color: #E6B325;
+	font-family: 'Prompt', sans-serif;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+	float: right;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+	float: right;
+	overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit; /* Important for vertical align on mobile phones */
+	margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #ffbb00df;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+	
+	display: none;
+	position: absolute;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+	background-color: #e6b32588;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+
+/*--------------HEADING-------------------*/
+	h1 {
+		color: rgb(0, 0, 0);
+		font-family: 'Prompt', sans-serif;
+		font-size: 45px;
+	}
+	::selection{
+		background-color: #ffdb6fc0;
+	}
+
+	/* 3*3 Grid */
+	#b1, #b2, #b3, #b4, #b5,
+	#b6, #b7, #b8, #b9 {
+		width: 80px;
+		height: 52px;
+		margin: auto;
+		border: 1px solid goldenrod;
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+	}
+    #b2, #b4,#b6,#b8{
+        background-color: #FFD966;
+    }
+    #b1, #b3,#b5,#b7,#b9{
+        background-color: #ffeaad;
+    }
+	b{
+		color: red;
+	}
+
+	/* Reset Button */
+	#but {
+		box-sizing: border-box;
+		width: 95px;
+		height: 40px;
+		border: 1px solid white;
+		margin: auto;
+		border-radius: 4px;
+		font-family: Verdana,Geneva, Tahoma, sans-serif;
+		background-color: rgb(0, 0, 210);
+		color: white;
+		font-size: 20px;
+		cursor: pointer;
+	}
+
+	/* Player turn space */
+	#print {
+		font-family: Verdana,Geneva, Tahoma, sans-serif;
+		color: dodgerblue;
+		font-size: 20px;
+	}
+
+	/* Main Container */
+	#main {
+		text-align: center;
+	}
+
+	/* Game Instruction Text */
+	#ins {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+			
+		color: dodgerblue;
+		font-size: 17px;
+	}

@@ -1,0 +1,149 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*------NAVIGATION BAR---------*/
+.topnav {
+  background-color: rgba(0, 0, 139, 0.621);
+  border-radius: 0px 0px 0px 0px;
+  margin: 0px;
+  display: flex;
+  font-family: sans-serif;
+  justify-content: center;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  margin-top: 4px;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.topnav a:hover {
+  
+  color: goldenrod; 
+}
+
+
+/*-------------ROADMAP------------*/
+.road{
+  margin-top: 2%;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px 5px BLACK;
+  
+}
+.road:hover{
+ 
+
+}
+
+/*-----------BUTTONS---------------*/
+/*------LEVEL 1-------*/
+.level1{
+  position: absolute;
+  top: 71%;
+  left: 58.5%;
+  background-color: black;
+  color: goldenrod;
+  padding: 15px;
+  border: none;
+  border-radius: 190px ;
+  cursor: pointer;
+}
+.level1:hover{
+  color: black;
+  background-color: goldenrod;
+}
+
+/*-------LEVEL 2-----------*/
+.level2{
+  position: absolute;
+  top: 61%;
+  left: 56%;
+  background-color: black;
+  color: goldenrod;
+  padding: 15px;
+  border: none;
+  border-radius: 190px ;
+  cursor: pointer;
+}
+.level2:hover{
+  color: black;
+  background-color: goldenrod;
+}
+
+/*-------LEVEL 3-----------*/
+.level3{
+  position: absolute;
+  top: 66%;
+  left: 49.5%;
+  background-color: black;
+  color: goldenrod;
+  padding: 15px;
+  border: none;
+  border-radius: 190px ;
+  cursor: pointer;
+}
+.level3:hover{
+  color: black;
+  background-color: goldenrod;
+}
+/*-------LEVEL 4-----------*/
+.level4{
+  position: absolute;
+  top: 69%;
+  left: 42.5%;
+  background-color: black;
+  color: goldenrod;
+  padding: 15px;
+  border: none;
+  border-radius: 190px ;
+  cursor: pointer;
+}
+.level4:hover{
+  color: black;
+  background-color: goldenrod;
+}
+/*-------LEVEL 5-----------*/
+.level5{
+  position: absolute;
+  top: 58%;
+  left: 39%;
+  background-color: black;
+  color: goldenrod;
+  padding: 15px;
+  border: none;
+  border-radius: 190px ;
+  cursor: pointer;
+}
+.level5:hover{
+  color: black;
+  background-color: goldenrod;
+}
+/*-------LEVEL 6-----------*/
+.level6{
+  position: absolute;
+  top: 52%;
+  left: 45.75%;
+  background-color: black;
+  color: goldenrod;
+  padding: 15px;
+  border: none;
+  border-radius: 190px ;
+  cursor: pointer;
+}
+.level6:hover{
+  color: black;
+  background-color: goldenrod;
+}

@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+	/*---------SCROLBARR----------------*/
+::-webkit-scrollbar{
+  width: 12px;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent,#cc7732);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(transparent,#b8621baf);
+}
+/*-----------SCROLLBAR END----------------*/
+
+.LOGO{
+ 
+  color: black;
+	padding: 14px 16px;
+  margin-right: auto;
+}
+/* Navbar container */
+.navbar {
+	overflow: hidden;
+	background-color: transparent;
+	font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+	float: right;
+	padding: 14px 16px;
+	font-size: 19px;
+	color: black;
+	text-align: center;
+	padding: 14px 13px;
+	text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+	float: right;
+	overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit; /* Important for vertical align on mobile phones */
+	margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #F6F1E9;
+    color: black;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+	
+	display: none;
+	position: absolute;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+	background-color: #b8621b88;
+    color: white;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+
+
+ 
+/*---------------CONTAINER 1-----------------------------*/
+.container1{
+  background-color: transparent;
+}
+
+
+  /*--------YT VIDE0------*/
+
+  .yt_video{
+     border: none;
+     border-radius: 10px;
+     margin-top: 1%;
+     margin-bottom: 2%;
+   animation: fade-up 1s;
+  }
+  .yt_video:hover{
+    box-shadow: 3px 3px 5px 5px #545454;
+
+  }
+
+
+
+
+/*----------CONTAINER 2-----------*/
+  .container2{
+    background-color: transparent;
+    border-radius: 10px 5px 10px 5px;
+    background-image: 1;
+  }
+ 
+  .eng{
+    transform: rotate(-25deg);
+  }
+  /*------------DESCRIPTION-----------*/
+.rev{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.desc{
+  animation: fade-up 2s;
+   background-color: transparent;
+   margin: 1% 1% 1% 0%;
+   border: none;
+   width: 100%;
+}
+
+.head_desc{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 10px 40% ;
+}
+.para_desc{
+    font-family: 'Roboto', sans-serif;
+  padding: 5px 15px;
+  line-height: 40px;
+}
+
+
+
+/*----------------STAR--------------*/
+.rate {
+  height: 46px;
+  padding: 0 10px;
+  margin-right: 42.5%;
+}
+.rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:40px;
+  color:#ccc;
+}
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate > input:checked ~ label {
+  color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+/*--------Comment Box----------*/
+.comment {
+  display: flex;
+  align-self: center;
+  margin-top: 2%;
+  width: 40%;
+  height: 190px;
+  padding: 10px;
+  border: solid 1px grey;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  color: #095484;
+}
+
+.submit2{
+  padding: 10px 35px 10px 35px;
+  border-radius: 10px;
+  margin-bottom: 1%;
+  background-color: #AACB73;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.submit2:hover{
+  background-color: #CDE990;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+  
+/*-------FOOTER--------*/
+.foot_ad{
+  background-color: #252323;
+  padding: 1px 1px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0%;
+}
+.foot_links_ad{
+  text-decoration: none;
+  color: silver;
+  padding: 0px 5px;
+}
+.foot_links_ad:hover{
+  color: white;
+}
+.nav_logo_ad{
+  position: relative;
+  bottom:93.5%;
+  left: 1%;
+}
+.foot_ul_ad{
+  font-size: 14px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none; 
+  padding:4px 4px;
+  display: flex;
+  position: relative;
+  left: 1%;
+}
+.dash_ad{
+  color: silver;
+}
+
+
+/*======KEY FRAMES=====*/
+
+@keyframes fade-up{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@keyframes fade-down{
+    0%{
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+
+
+
+
+
