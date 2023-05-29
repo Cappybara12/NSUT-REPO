@@ -1,7 +1,7 @@
 # NSUT-REPO
 #Screenshots
 ![homescreen](<img width="959" alt="Screenshot 2023-04-06 104419" src="https://user-images.githubusercontent.com/122734275/230278670-a26fef11-f375-42fd-aeef-00973dd27576.png">
-![Care](<img width="924" alt="Screenshot 2023-04-06 104451" src="https://user-images.githubusercontent.com/122734275/230278682-b9349c85-f584-4a48-b64b-9ad52ac6c3c4.png">
+![Care](https://user-images.githubusercontent.com/122734275/230278682-b9349c85-f584-4a48-b64b-9ad52ac6c3c4.png
 )
 ![Payment Gateway](<img width="941" alt="Screenshot 2023-04-06 104557" src="https://user-images.githubusercontent.com/122734275/230278691-380a35de-28e2-45e2-9b70-df8b354b2">)
 ![Mental Skills](<img width="947" alt="Screenshot 2023-04-06 104508" src="https://user-images.githubusercontent.com/122734275/230278702-6d62c25d-b836-41ed-831c-1f24cf2dc04a.png">
