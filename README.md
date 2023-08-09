@@ -1,4 +1,8 @@
-# NSUT-REPO
+# Helping_hand
+Empowering Mentally Disabled Children: Providing
+Learning Opportunities, Promoting Awareness, and
+Engaging Brain Games for Mental Skill
+Development..
 #Screenshots
 ![homescreen](<img width="959" alt="Screenshot 2023-04-06 104419" src="https://user-images.githubusercontent.com/122734275/230278670-a26fef11-f375-42fd-aeef-00973dd27576.png">
 ![Care](https://user-images.githubusercontent.com/122734275/230278682-b9349c85-f584-4a48-b64b-9ad52ac6c3c4.png
